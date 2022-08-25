@@ -1,0 +1,114 @@
+body{
+    /*background-color:paleturquoise;*/
+    /*background-image: url(images/mountains_river_black_white_clouds_reflection_on_water_hd_macbook.jpg);*/
+    background-size:cover;
+}
+h1{
+    color: red;
+}
+
+p{
+    color: violet;
+}
+
+#paragraph{
+
+    background-color: beige;
+    color: black;
+}
+
+.headingstyle{
+    background-color: gold;
+    color: cyan;
+}
+div{
+    background-color: gold;
+    opacity:100%;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right: 50px;
+    padding-left:50px ;
+
+}
+.dotted{
+    border-style: dotted;
+}
+.solid{
+    border-style: solid;
+}
+.double{
+    border-style: double;
+}
+.insert{
+    border-style:inset;
+}
+
+.margin{
+  border: 1px solid;
+  margin-top: 100px;
+  margin-bottom:80px;
+ margin-right: 52px;
+}
+#boxmodel{
+    background-color: lightsalmon;
+    border: 50px solid red;
+    width: 250px;
+    margin: 20px;
+    padding: 50px;
+}
+
+.align{
+    text-align: center;
+}
+.space{
+    line-height: 4;
+
+}
+.spaceword{
+    letter-spacing: 5px;
+}
+a{
+    color: forestgreen;
+
+}
+a:visited{
+    color: cyan;
+}
+a:hover{
+    color: blueviolet;
+}
+img{
+    float: top;
+}
+.textsize{
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: chocolate;
+
+}
+
+li{
+    float: left;
+
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a :hover:not(.active) {
+
+    background-color: #111;
+
+}
+.active{
+    background-color: blue;
+}
